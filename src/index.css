@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202020;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Cor de Fundo da Aplicação: #202020 */
+/* Cor de Fundo do Chat: #2c2c2c */
+/* Cor de Fundo do Filtro: #222222 */
+/* Cor de Fundo da Foto: #414141 */
+/* Cor do Ícone: #7e7e7e */
+/* Cor do Texto: #7d7d7d */
+/* Cor da Borda do Filtro: #1f9257 */
+/* Cor da Barra Scroll: #979797 */
