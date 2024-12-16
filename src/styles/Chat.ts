@@ -310,23 +310,30 @@ export const ChatRoomContainer = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
+    overflow-y: auto;
+    padding-bottom: 20px;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(32,32,32,0.9);
+    background-color: rgba(32, 32, 32, 0.9);
+
     &::-webkit-scrollbar {
-      width: 8px; /* Largura da barra de rolagem */
+      width: 4px; /* Largura da barra de rolagem */
       height: 8px; /* Altura para scroll horizontal */
     }
+
     /* Fundo do scroll bar */
     &::-webkit-scrollbar-track {
       background: transparent; /* Cor do fundo */
       border-radius: 10px; /* Bordas arredondadas */
     }
+
     /* O controle que você pode rolar */
     &::-webkit-scrollbar-thumb {
-      background: #888; /* Cor da barra */
+      background: var(--scrollbar-thumb-bg, transparent); /* Cor definida por variável CSS */
       border-radius: 10px; /* Bordas arredondadas */
+      transition: background 0.3s ease; /* Transição suave */
     }
+
     /* Hover na barra */
     &::-webkit-scrollbar-thumb:hover {
       background: #555; /* Cor ao passar o mouse */
